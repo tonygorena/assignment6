@@ -1,6 +1,6 @@
 package assignment6;
 
-class QSorter<E extends Comparable<E>> extends Sorter {
+class QSorter<E extends Comparable<E>> extends Sorter<E>{
 
     public QSorter(E[] array) {
         super(array);
